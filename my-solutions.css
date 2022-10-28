@@ -102,14 +102,14 @@
 }
 
 .ex-12-button:hover .ex-12-top-white{
-  animation: loop3-top 2s linear;
+  animation: move1-top 2s linear;
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
-  animation: loop3-bottom 2s linear;
+  animation: move1-bottom 2s linear;
 }
 
-@keyframes loop3-top{
+@keyframes move1-top{
   0%{
     left: 10%;
   }
@@ -121,7 +121,7 @@
   }
 } 
 
-@keyframes loop3-bottom{
+@keyframes move1-bottom{
   0%{
     right: 10%;
   }
@@ -134,15 +134,15 @@
 } 
 
 .ex-13-button:hover .ex-13-top-white{
-  animation: loop4-top 2s linear;
+  animation: move2-top 4s linear;
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-  animation: loop4-bottom 2s linear;
+  animation: move2-bottom 4s linear;
 }
 
 
-@keyframes loop4-top{
+@keyframes move2-top{
   0%{
     left: 10%;
   }
@@ -174,7 +174,7 @@
 } 
 
 
-@keyframes loop4-bottom{
+@keyframes move2-bottom{
   0%{
     right: 20%;
   }
