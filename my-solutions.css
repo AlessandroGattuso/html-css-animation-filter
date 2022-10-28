@@ -89,10 +89,10 @@
 } 
 
 .ex-11-icon:hover{
-  animation: loop2 2s infinite alternate;
+  animation: rotate-270 2s infinite alternate;
 }
 
-@keyframes loop2{
+@keyframes rotate-270{
   0%{
     transform: rotate(0deg);
   }
